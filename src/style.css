@@ -1,0 +1,106 @@
+body {
+  background-color: #e0ffff;
+  margin-bottom: 20%;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 5em;
+}
+ul {
+  font-size: 2em;
+  text-align: left;
+}
+
+#list {
+  padding: 5% 3%;
+  margin-left: 28%;
+  display: block;
+  box-shadow: 0px 3px 8px 3px rgba(0, 0, 0, 0.24);
+  width: 60%;
+  height: 60%;
+  background-color: #fffacd;
+}
+#add {
+  padding: 1%;
+  font-size: 1.5em;
+  border-radius: 3px;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  right: 20%;
+  margin-left: 20%;
+}
+label {
+  display: inline;
+  width: 60%;
+  font-size: 1.5em;
+  position: relative;
+  right: 10%;
+}
+#priority {
+  height: 20px;
+  width: 25px;
+}
+#selection {
+  display: block;
+  position: relative;
+  left: 37%;
+  font-size: 1.2em;
+  margin-top: 5px;
+  background-color: #fff8dc;
+  color: #2c3e50;
+}
+#selection:disabled {
+  background-color: #DCDCDC;
+  color: grey;
+}
+#selection:hover {
+  color: #fff8dc;
+  background-color: #2c3e50;
+}
+
+button {
+  background-color: #fff8dc;
+  color: #2c3e50;
+  border-radius: 3px;
+}
+#hiddenEl {
+  font-size: 1.2em;
+  color: #2c3e50;
+}
+#start-btn {
+  background-color: #fff8dc;
+  color: #2c3e50;
+  border-radius: 3px;
+  font-size: 1.5em;
+}
+#start-btn:hover {
+  color: #fff8dc;
+  background-color: #2c3e50;
+}
+.button-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.strikethru {
+  text-decoration: line-through solid firebrick 5px;
+  color: grey;
+}
+.priority {
+  color: firebrick;
+}
+.counter {
+  float: left;
+  margin-bottom: 80%;
+}
